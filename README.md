@@ -1,5 +1,9 @@
-# This repo is for my Impact Isolation AI
-## which I created for my CS 3600 class. The assignment notebook can be found in `notebook.ipynb` and my submission for 1C placed 5th out of 900 students in my CS 3600 section. The original readme for the assignment is below.
+# Impact Isolation AI
+Created for my Artificial Intelligence class. The assignment notebook can be found in `notebook.ipynb` and my submission for 1C placed 5th out of 900 students in my CS 3600 section. The original readme for the assignment is below.
+
+Impact Isolation is a two player game played on a chess board. Each player controls a queen. After a player moves their piece, the surrounding squares (up/down/left/right) become walled off so no other player can enter them. The goal is to trap your opponent.
+
+The strategy I used was a heuristic with minimax + alpha-beta pruning. The heuristic was based on maximizing the number of available moves and surrounding free squares for the current player while minimizing the space for the opposing player.
 
 # Assignment 2 - Impact Isolation
 
